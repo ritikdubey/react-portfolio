@@ -1,0 +1,61 @@
+body{
+    background-color: #BC8CF2;
+    color: #FBF46D;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.nac{
+    position: absolute; 
+    /* width: auto; */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    text-decoration: none;
+    color: red;
+}
+
+.nav-container{
+    height: 40px;
+}
+
+.navbar-text{
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.education-card{
+    justify-content: center;
+}
+
+.education-card-content{
+    text-align: center;
+    background-color: #BC8CF2; 
+    color: #FBF46D;
+}
+
+.introduction-div{
+    justify-content: center;
+    text-align: center;
+}
+
+.project-button{
+    color: red;
+}
+
+.projects-div{
+    text-align: center;
+}
+
+button:hover{
+    color:deepskyblue
+}
+
+.contact-me{
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact-button:hover{
+    color: white;
+}
