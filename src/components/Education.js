@@ -18,7 +18,7 @@ const Education = () =>
 
     <Card className="education-card" sx={{ minWidth: 275 }}>
       <CardContent className="education-card-content">
-          <img height="220px" width="220px" src="https://lh3.googleusercontent.com/proxy/n5fSjAcDfnhjGhZaJ_qWVYIC6MiUaNhCs_YLSbqANHFppMZz_j7va_pIdR0ztHph16fk2keoszFlFoNTKfgVPgHj82kWkukVNUo" />
+          <img height="220px" width="220px" src="/images/collegelogo.png" />
         <br />
         <br />
         <Typography sx={{ fontSize: 20 }} gutterBottom>
@@ -42,7 +42,7 @@ const Education = () =>
     
     <Card className="education-card" sx={{ minWidth: 275 }}>
       <CardContent className="education-card-content">
-          <img height="220px" width="220px" src="https://www.stpaulindore.com/assets/images/logo-1683x1703.png" />
+          <img height="220px" width="220px" src="/images/schoollogo.png" />
         <br />
         <br />
         <Typography sx={{ fontSize: 20 }} gutterBottom>

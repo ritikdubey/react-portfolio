@@ -31,7 +31,7 @@ function BasicModal() {
   const handleClose2 = () => setOpen2(false);
 
   return (
-    <div className="projects-div" style={{'color': 'white', 'marginBottom': '25px'}}>
+    <div className="projects-div" style={{ 'marginBottom': '25px'}}>
         <h1 style={{'marginBottom': '30px', 'marginTop': '25px'}}>Projects I have worked on</h1>
 
       <Button style={{'fontSize': '25px', 'marginRight': '15px'}} onClick={handleOpen}>E-Coach</Button>
