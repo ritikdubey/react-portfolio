@@ -1,61 +1,77 @@
 body{
-    background-color: #BC8CF2;
-    color: #FBF46D;
-    font-family: 'Baloo Bhaijaan 2', cursive;
+    height: 100%;
+    width: 100%;
+    background-color: #1D1D1F;
+    color:#e3cdb6;
+    font-family: "Chakra Petch", sans-serif;
 }
 
-.nac{
-    position: absolute; 
-    /* width: auto; */
-    left: 50%;
-    transform: translateX(-50%);
+img{
+    height: 100vh;
+    width: 100%;
+}
+
+.header-div{
+    position: absolute;
+    top: 25vh;
+    right: 15%;
+    color:#e3cdb6;
+}
+
+#intro-1 {
+    text-align: left;
+    font-size: 12vh;
+    /* font-family: "Dancing Script", cursive; */
+    font-family: "Chakra Petch", sans-serif;
+    font-optical-sizing: auto;
+}
+
+#intro-2, #intro-3, #intro-4{
+    font-size: 8vh;
+    filter: blur(5px);
+    font-family: "Chakra Petch", sans-serif;
+}
+
+.experience-container{
+    /* height: 100vh; */
+    width: 75%;
+    text-align:center;
+    /* display: flex; */
+
+}
+
+.experience-container{
+    display: grid;
+    grid-template-columns: 20% 45%;
+    /* margin-left: 10vw; */
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    align-items: center;
+    justify-items: center; /* adjusted */
     text-align: center;
-    text-decoration: none;
-    color: red;
+    /* margin-right: auto; */
+    margin-left: 25%;
 }
 
-.nav-container{
-    height: 40px;
+.experience-item{
+    /* text-align: center;
+    align-items: center; */
+    /* text-align: justify;
+    text-justify: inter-word; */
+    margin-right: 10%;
 }
 
-.navbar-text{
-    text-decoration: none;
-    margin-left: 10px;
+.tech-skill{
+    border: 1px;
+    border-style: solid;
+    background-color: transparent;
+    color: aqua;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-right: 7px;
+    /* text-align: left; */
 }
 
-.education-card{
-    justify-content: center;
-}
-
-.education-card-content{
-    text-align: center;
-    background-color: #BC8CF2; 
-    color: #FBF46D;
-}
-
-.introduction-div{
-    justify-content: center;
-    text-align: center;
-}
-
-.project-button{
-    color: red;
-}
-
-.projects-div{
-    text-align: center;
-}
-
-button:hover{
-    color:deepskyblue
-}
-
-.contact-me{
-    justify-content: center;
-    text-align: center;
-    margin-top: 50px;
-}
-
-.contact-button:hover{
-    color: white;
-}

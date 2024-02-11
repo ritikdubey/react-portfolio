@@ -3,14 +3,21 @@ import Education from './Education';
 import TechnicalSkills from './TechnicalSkills';
 import Introduction from './Introduction';
 import Projects from './Projects';
+import Introduction2 from './Introduction2';
+import Experience from './Experience';
+import BottomBar from './BottomBar';
 
 const Home = () => {
     return(
         <>
-        <Introduction />
+        {/* <Introduction />
         <TechnicalSkills />
         <Projects />
-        <Education />
+        <Education /> */}   
+
+        <Introduction2 />
+        <Experience />
+        <BottomBar fontSize="large" />
         
         </>
     )
